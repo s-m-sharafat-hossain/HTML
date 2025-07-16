@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--file attribute:
+    ->Purpose: The file attribute is used to allow users to upload files through a form.
+    ->Location: It is typically used within input elements of type file.
+    ->Accept: It specifies the file types that are allowed to be uploaded.
+    -->
+    <form action="upload.php" method="post" enctype="multipart/form-data">
+        <label for="file">Upload File:</label>
+        <input type="file" id="file" name="file" accept=".jpg, .jpeg, .png, .pdf, .doc, pdf" ><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--Action attribute is used to specify the URL where the form data is sent when the form is submitted.
+    The action attribute can be a URL or a script name
+    
+    purpose: It defines the destination for the form data, allowing the server to process it accordingly.
+    
+    location: It is placed within the <form> element, typically as an attribute.
+    
+    attributes: The action attribute can take various forms, including absolute URLs, relative URLs, or script names.
+    
+    default value: The default value for the action attribute is the current page's URL
+    
+    server-side processing: When the form is submitted, the server processes the form data based on the action attribute.
+    Php, python, java use the action attribute to determine how to handle the incoming data.
+    -->
+    <form action="https://www.example.com">
+        Username: <input type="text" name="username" placeholder="Enter your username"><br><br>
+
+        Password: <input type="password" name="password" placeholder="Enter your password"><br><br>
+        
+        Email: <input type="email" name="email"><br><br>
+        <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter<br><br>
+        <input type="button"value="Submit">
+
+    </form>
+</body>
+</html>

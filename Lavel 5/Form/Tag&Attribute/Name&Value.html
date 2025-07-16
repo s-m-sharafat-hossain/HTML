@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- The Name and Value attributes are used to identify form elements and their corresponding data when the form is submitted.
+    
+    Purpose: They allow the server to recognize which data corresponds to which form element, enabling proper processing of the submitted data.
+    
+    Location: The name attribute is placed within the form element, while the value attribute is typically associated with input elements.
+    
+    Attributes: The name attribute is essential for identifying form data, while the value attribute holds the actual data submitted by the user.
+    
+    Default Value: If not specified, the name attribute defaults to an empty string, and the value attribute defaults to the input's current value.
+    
+    Server-side Processing: When a form is submitted, the server uses these attributes to process and store the data accordingly.
+    PHP, Python, and Java utilize these attributes to handle incoming form data effectively.
+    -->
+    <form action="https://www.example.com">
+        Username: <input type="text" name="username" placeholder="Enter your username"><br><br>
+
+        Password: <input type="password" name="password" placeholder="Enter your password"><br><br>
+        
+        Email: <input type="email" name="email"><br><br>
+        <input type="checkbox" name="subscribe" value="yes"> Subscribe to newsletter<br><br>
+        <input type="button" value="Submit">
+
+    </form>
+</body>
+</html>
